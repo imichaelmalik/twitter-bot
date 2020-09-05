@@ -17,6 +17,6 @@ Imp!! Replace imichaelmalik with your twitter username (wherever in the file)
 
 When you run the program, it asks you for either "follow" or "unfollow" in both of which cases it follows new users & unfollows the ones that don't follow you back respectively. If you run this too much, Twitter will change the API keys, so you will have an error.
 
-To learn how to install Python3 or run a python file from CMD/SHELL, please check youtube, it'll be too long to explain here.
+To learn how to install Python3 (or TWEEPY) or run a python file from CMD/SHELL, please check youtube, it'll be too long to explain here.
 
 Maybe also Follow me on Twitter, lol. Cheers.
