@@ -13,7 +13,7 @@ Come to the python file (open with any idle or just notepad)
 Fill in consumer_key, consumer_secret, access_token & access_token_secret. Fill it in single quotes. (Example: consumer_key = 'kdbfhsbd9gr873g9ghbr')
 (API Key & Secret are your consumer_key & consumer_secret)
 
-Imp!! Replace imichaelmalik with your twitter username (wherever in the tweet.py file)
+Imp!! Replace princemalik2000 with your twitter username (wherever in the tweet.py file)
 
 When you run the program, it asks you for either "follow" or "unfollow" in both of which cases it follows new users & unfollows the ones that don't follow you back respectively. If you run this too much, Twitter will change the API keys, so you will have an error.
 
