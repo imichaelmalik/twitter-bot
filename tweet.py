@@ -34,8 +34,8 @@ def newunfollow():
             pass
         time.sleep(20)
 
-def tweetfunc():
-    status = "This is a Tweet."
+def tweetfunc(status):
+    #status = "This is a Tweet."
     api.update_status(status)
 
 def main():
@@ -54,7 +54,7 @@ def main():
             break
 
 def finalfunct():
-    print("COMMANDS: follow; unfollow")
+    print("COMMANDS: follow; unfollow; tweet")
     text = input("Enter function>>")
     type(text)
     if text == "follow":
@@ -65,6 +65,15 @@ def finalfunct():
         for i in range(0, 2):
             newunfollow()
             time.sleep(100)
+    elif text == "tweet":
+        twt_text = input("Write tweet here> ")
+        type(twt_text)
+        if len(twt_text) > 280:
+            print("Tweet Character length more than 280!")
+        elif len(twt_text) == 0:
+            print("Write something!")
+        else:
+            tweetfunc(twt_text)
     else:
         print("Invalid Command!")
 
