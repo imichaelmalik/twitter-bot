@@ -16,7 +16,7 @@ def newunfollow():
     for user in tweepy.Cursor(api.friends, screen_name='princemalikOG').items(20):
         john = user.screen_name
         try:
-            frndstatus = api.show_friendship(source_screen_name=john, target_screen_name='princemalik2000')
+            frndstatus = api.show_friendship(source_screen_name=john, target_screen_name='princemalikOG')
             time.sleep(10)
             if frndstatus[0].following is True:
                 pass
